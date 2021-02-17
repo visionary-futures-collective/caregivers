@@ -1,0 +1,13 @@
+# Site settings
+title: Campus Caregivers
+email: visionaryfuturescollective@gmail.com
+description: Envisioning a better future for caregivers on campus. 
+# baseurl: /caregivers/
+url: "localhost:4000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: https://visionary-futures-collective.github.io/
+
+twitter_username: @CoyoteAndBones
+# github_username:
+
+# Build settings
+markdown: kramdown
