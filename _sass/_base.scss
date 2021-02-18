@@ -44,11 +44,25 @@ p {
 
 .bg-primary {
     background-color: $theme-primary;
+    a {
+        color: #580000;
+        &:hover,
+        &:focus {
+            color: darken(#580000, 10%);
+            }
+    }
 }
 
 .bg-dark {
     background-color: $theme-dark;
     color: white;
+    a {
+        color: #b56576;
+        &:hover,
+        &:focus {
+            color: darken(#b56576, 10%);
+            }
+    }
 }
 
 .bg-pink {
