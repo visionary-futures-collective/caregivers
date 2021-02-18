@@ -4,6 +4,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -1089,12 +1090,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #337ab7;
+  color: #f4d58d;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #23527c;
+  color: #f4d58d;
   text-decoration: underline;
 }
 a:focus {
@@ -1364,10 +1365,10 @@ a.bg-primary:hover {
   background-color: #286090;
 }
 .bg-success {
-  background-color: #dff0d8;
+  background-color: #f4d58d;
 }
 a.bg-success:hover {
-  background-color: #c1e2b3;
+  background-color: #f4d58d;
 }
 .bg-info {
   background-color: #d9edf7;

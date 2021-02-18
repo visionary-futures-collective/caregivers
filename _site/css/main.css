@@ -7,7 +7,7 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif; }
 
 hr {
-  border-color: #f8961e;
+  border-color: #8d0801;
   border-width: 3px;
   max-width: 50px; }
 
@@ -18,9 +18,9 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #f8961e; }
+  color: #8d0801; }
   a:hover, a:focus {
-    color: #dc7c07; }
+    color: #5a0501; }
 
 h1,
 h2,
@@ -36,7 +36,7 @@ p {
   margin-bottom: 20px; }
 
 .bg-primary {
-  background-color: #f8961e; }
+  background-color: #8d0801; }
 
 .bg-dark {
   background-color: #222;
@@ -62,12 +62,12 @@ aside {
   -moz-transition: all 0.35s;
   transition: all 0.35s; }
   .navbar-default .navbar-header .navbar-brand {
-    color: #f8961e;
+    color: #8d0801;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
     font-weight: 700;
     text-transform: uppercase; }
     .navbar-default .navbar-header .navbar-brand:hover, .navbar-default .navbar-header .navbar-brand:focus {
-      color: #dc7c07; }
+      color: #5a0501; }
   .navbar-default .nav > li > a,
   .navbar-default .nav > li > a:focus {
     text-transform: uppercase;
@@ -76,10 +76,10 @@ aside {
     color: #222; }
     .navbar-default .nav > li > a:hover,
     .navbar-default .nav > li > a:focus:hover {
-      color: #f8961e; }
+      color: #8d0801; }
   .navbar-default .nav > li.active > a,
   .navbar-default .nav > li.active > a:focus {
-    color: #f8961e !important;
+    color: #8d0801 !important;
     background-color: transparent; }
     .navbar-default .nav > li.active > a:hover,
     .navbar-default .nav > li.active > a:focus:hover {
@@ -102,16 +102,16 @@ aside {
         background-color: white;
         border-color: rgba(34, 34, 34, 0.5); }
         .navbar-default.affix .navbar-header .navbar-brand {
-          color: #f8961e;
+          color: #8d0801;
           font-size: 14px; }
           .navbar-default.affix .navbar-header .navbar-brand:hover, .navbar-default.affix .navbar-header .navbar-brand:focus {
-            color: #dc7c07; }
+            color: #5a0501; }
         .navbar-default.affix .nav > li > a,
         .navbar-default.affix .nav > li > a:focus {
           color: #222; }
           .navbar-default.affix .nav > li > a:hover,
           .navbar-default.affix .nav > li > a:focus:hover {
-            color: #f8961e; } }
+            color: #8d0801; } }
 
 header {
   position: relative;
@@ -182,7 +182,7 @@ header {
     color: white;
     opacity: 0;
     display: block;
-    background: rgba(248, 150, 30, 0.9);
+    background: rgba(141, 8, 1, 0.9);
     position: absolute;
     bottom: 0;
     text-align: center;
@@ -219,7 +219,7 @@ header {
   margin: 0 auto 20px; }
 
 .text-primary {
-  color: #f8961e; }
+  color: #8d0801; }
 
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -247,22 +247,22 @@ header {
 
 .btn-primary {
   color: white;
-  background-color: #f8961e;
-  border-color: #f8961e;
+  background-color: #8d0801;
+  border-color: #8d0801;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle .btn-primary {
     color: white;
-    background-color: #f58a08;
-    border-color: #eb8507; }
+    background-color: #740701;
+    border-color: #6a0601; }
   .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle .btn-primary {
     background-image: none; }
   .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled].focus, .btn-primary[disabled]:active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active {
-    background-color: #f8961e;
-    border-color: #f8961e; }
+    background-color: #8d0801;
+    border-color: #8d0801; }
   .btn-primary .badge {
-    color: #f8961e;
+    color: #8d0801;
     background-color: white; }
 
 .btn {
@@ -302,9 +302,9 @@ body {
 
 header::before {
   content: "";
-  background-image: url("../img/back2.jpg");
+  background-image: "";
   background-size: cover;
-  background-color: #222;
+  background-color: #f4d58d;
   position: absolute;
   top: 0px;
   right: 0px;

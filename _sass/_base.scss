@@ -350,9 +350,9 @@ body {
 
 header::before {    
       content: "";
-      background-image: url('../img/back2.jpg');
+      background-image:"";
       background-size: cover;
-      background-color: $theme-dark;
+      background-color: #f4d58d;
       position: absolute;
       top: 0px;
       right: 0px;

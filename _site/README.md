@@ -12,3 +12,10 @@ See it live in action at <https://volny.github.io/creative-theme-jekyll/>
 - Start by adding your info in `_config.yml`
 - In `_layouts/front.html` reorder or remove section as you prefer.
 
+## VFC Notes
+COLOR changes:
+- main.scss
+- $theme-primary: #8d0801; | this is the background colors and links
+- \_base.scss is where the header image is located. In header::Before ... background-image.
+
+
