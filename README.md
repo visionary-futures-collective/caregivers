@@ -17,5 +17,5 @@ COLOR changes:
 - main.scss
 - $theme-primary: #8d0801; | this is the background colors and links
 - \_base.scss is where the header image is located. In header::Before ... background-image.
-
+- \_base.scss is where the link color is located. IN `a {`
 
